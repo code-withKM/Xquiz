@@ -58,5 +58,13 @@ public class Quiz {
         }
         sc.close(); //after all the questions are attempted Scanner class instance is closed.
     }
+
+    public void revealAnswerKey(){
+        for(int i=0;i<questions.size();i++){
+            System.out.println("Question no. " + (i+1) + " : " + questions.get(i).getQuestionText() +
+            "\nAnswer no. " + (i+1) + " : " + questions.get(i).getAnswer());
+        }
+       
+    }
     
 }
