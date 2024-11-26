@@ -4,9 +4,9 @@ import java.util.List;
 
 public class  Question{
 
-    String questionText;
-    String answer;
-    List<String> choices;
+   private String questionText;
+   private  String answer;
+   private List<String> choices;
 
 
     public Question(String questionText,List<String> choices,String answer){
